@@ -12,6 +12,7 @@ git clone https://github.com/hyunjaemoon/material3-experiment.git
 Run the npm start script:
 ```sh
 cd material3-experiment
+npm install
 npm start
 ```
 

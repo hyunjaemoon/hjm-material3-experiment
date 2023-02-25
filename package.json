@@ -16,7 +16,7 @@
     "concurrently": "^7.6.0"
   },
   "scripts": {
-    "start": "concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds --node-resolve --watch --open --esbuild-target auto\"",
+    "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds --node-resolve --watch --open --esbuild-target auto\"",
     "build": "tsc"
   }
 }
