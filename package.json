@@ -13,9 +13,11 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@web/dev-server": "^0.1.35",
     "@web/dev-server-esbuild": "^0.3.3",
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "prettier": "2.8.4"
   },
   "scripts": {
+    "prettier": "prettier --write .",
     "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds --node-resolve --watch --open --esbuild-target auto\"",
     "build": "tsc"
   }
