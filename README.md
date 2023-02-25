@@ -1,4 +1,4 @@
-# material3-experiment
+# hjm-material3-experiment
 
 This is a repo for experimenting with material 3.
 
